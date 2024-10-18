@@ -20,7 +20,7 @@ jobs:
           bundler-cache: true
       - name: Config git user
         run: |
-          git config user.name "Russell Smith"
+          git config user.name "George Melika"
           git config user.email ukd1@users.noreply.github.com
       - name: Login
         env:
