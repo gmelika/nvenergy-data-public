@@ -120,7 +120,7 @@ def check(dts)
   end
 end
 
-(Date.new(2021, 7, 17)...(Date.today - 1)).each do |dt|
+(Date.new(2024, 8, 21)...(Date.today - 1)).each do |dt|
 # (Date.new(2021, 7, 17)...Date.new(2021, 7, 20)).each do |dt|
   unless File.exist?("data/#{dt}.csv")
     fetch(dt.to_s)
